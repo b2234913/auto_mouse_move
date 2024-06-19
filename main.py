@@ -69,8 +69,11 @@ while True:
 
             # 移动滑鼠
             original_position = pyautogui.position()
-            pyautogui.move(args.move_distance, 0, duration=0)
-            pyautogui.moveTo(*original_position, duration=0)  # 恢复到原来的位置
+            pyautogui.move(args.move_distance, 0, duration=0.25)
+            pyautogui.moveTo(*original_position, duration=0.25)  # 恢复到原来的位置
+
+            # 模拟键盘输入
+            pyautogui.press('shift')
 
     # 等待循环等待时间，减少循环的频率
     time.sleep(args.loop_delay)
