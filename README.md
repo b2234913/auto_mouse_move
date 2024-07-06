@@ -1,3 +1,15 @@
+## How to Install
+
+1. For Linux and MacOS:
+   - Run the following command in the terminal to download and execute the installation script:
+     ```bash
+     sh -c "$(curl -fsSL https://raw.githubusercontent.com/b2234913/auto_mouse_move/main/install.sh)"
+     ```
+
+2. For Windows:
+   - Download the [auto_mouse_move_for_windows.zip](https://github.com/b2234913/auto_mouse_move/releases/download/v1.0.0/auto_mouse_move_for_windows.zip) file.
+   - Unzip and run the `auto_mouse_move.exe` file.
+
 ## How to Use
 
 1. **Command Line Arguments:**
