@@ -3,7 +3,7 @@
 function download_and_install() {
   local zip_file="auto_mouse_move_for_linux.zip"
   local install_dir="/usr/local/bin"
-  local zip_url="https://github.com/b2234913/auto_mouse_move/releases/download/v1.0.0/$zip_file"
+  local zip_url="https://github.com/b2234913/auto_mouse_move/releases/download/v1.0.1/$zip_file"
 
   echo "Downloading $zip_file from $zip_url..."
   curl -L "$zip_url" --output "/tmp/$zip_file"
