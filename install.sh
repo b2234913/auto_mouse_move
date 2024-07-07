@@ -9,8 +9,7 @@ function download_and_install() {
   curl -L "$zip_url" --output "/tmp/$zip_file"
 
   echo "Installing to $install_dir..."
-  unzip -o "/tmp/$zip_file" -d "$install_dir"
-  sudo chmod -R 777 "$install_dir/auto_mouse_move"
+  sudo unzip -o "/tmp/$zip_file" -d "$install_dir"
 
   echo "Installation complete. Cleaning up..."
   rm "/tmp/$zip_file"
